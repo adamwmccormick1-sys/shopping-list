@@ -3,16 +3,16 @@ const APP_CACHE = `app-${CACHE_VERSION}`;
 const TESSERACT_CACHE = 'tesseract-assets';
 
 const APP_SHELL = [
-  '/',
-  '/index.html',
-  '/css/styles.css',
-  '/js/app.js',
-  '/js/db.js',
-  '/js/categories.js',
-  '/js/ocr.js',
-  '/js/ui.js',
-  '/js/sw-register.js',
-  '/manifest.json',
+  './',
+  './index.html',
+  './css/styles.css',
+  './js/app.js',
+  './js/db.js',
+  './js/categories.js',
+  './js/ocr.js',
+  './js/ui.js',
+  './js/sw-register.js',
+  './manifest.json',
 ];
 
 self.addEventListener('install', (e) => {

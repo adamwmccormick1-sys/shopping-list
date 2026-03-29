@@ -2,7 +2,7 @@
   "name": "Shopping List",
   "short_name": "Shop List",
   "description": "Smart shopping list with OCR and auto-categorization",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#f8f9fa",
